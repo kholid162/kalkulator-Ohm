@@ -93,7 +93,7 @@ while (True):
 
     elif pilihan == 3:
         # mendefinisikan variabel tegangan, arus, dan hambatan
-        I = float(input("Masukkan tegangan (dalam ampere): "))
+        I = float(input("Masukkan arus (dalam ampere): "))
         R = float(input("Masukkan hambatan (dalam ohm): "))
 
         # menghitung arus menggunakan rumus V = IR
@@ -116,9 +116,9 @@ while (True):
     elif pilihan == 5:
         # mendefinisikan variabel tegangan dan arus
         V = float(input("Masukkan tegangan (dalam volt): "))
-        R = float(input("Masukkan arus (dalam ohm): "))
+        R = float(input("Masukkan hambatan (dalam ohm): "))
 
-        # menghitung hambatan menggunakan rumus R = V / I
+        # menghitung hambatan menggunakan rumus I = V / R
         I = V / R
 
         # menampilkan hasil hambatan ke layar
